@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "tshirt", "shortname": "tshirt", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "50 грн", "image": "https://place-hold.it/400x400/black"},
+  {"id": 2, "name": "tshirt", "shortname": "jeans", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "100 грн", "image": "https://place-hold.it/400x400/black"},
+  {"id": 3, "name": "jacket", "shortname": "jacket", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "150 грн", "image": "https://place-hold.it/400x400/black"},
+  {"id": 4, "name": "pants", "shortname": "pants", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "40 грн", "image": "https://place-hold.it/400x400/black"}
+]

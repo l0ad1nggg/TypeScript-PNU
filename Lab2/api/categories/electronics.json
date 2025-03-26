@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "smartphone", "shortname": "smartphone", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "1000 грн", "image": "https://place-hold.it/400x400"},
+  {"id": 2, "name": "laptop", "shortname": "laptop", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "2000 грн", "image": "https://place-hold.it/400x400"},
+  {"id": 3, "name": "tablet", "shortname": "tablet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "1500 грн", "image": "https://place-hold.it/400x400"},
+  {"id": 4, "name": "headphones", "shortname": "headphones", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "price": "1500 грн", "image": "https://place-hold.it/400x400"}
+]
