@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1, 
+    "name": "guitar", 
+    "shortname": "guitar", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+    "price": "4500 грн", 
+    "image": "https://place-hold.it/400x400/Red"
+ },
+ {
+  "id": 2,
+  "name": "piano",
+  "shortname": "piano",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "price": "15000 грн",
+  "image": "https://place-hold.it/400x400/Red"
+ },
+ {
+  "id": 3,
+  "name": "violin",
+  "shortname": "violin",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "price": "15000 грн",
+  "image": "https://place-hold.it/400x400/Red"
+ },
+ {
+  "id": 4,
+  "name": "drums",
+  "shortname": "drums",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "price": "10000 грн",
+  "image": "https://place-hold.it/400x400/Red"
+ }
+]
