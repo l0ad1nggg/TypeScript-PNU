@@ -15,8 +15,8 @@ export const AuthPage = () => {
           </div>
           <div className="feature-item">
             <span className="feature-icon">📅</span>
-            <h3>Calendar Sync</h3>
-            <p>Integrate with Google Calendar</p>
+            <h3>Calendar</h3>
+            <p>Calendar function</p>
           </div>
           <div className="feature-item">
             <span className="feature-icon">🔒</span>
