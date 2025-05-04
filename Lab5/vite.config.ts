@@ -6,14 +6,18 @@ export default defineConfig({
   base: '/TypeScript-PNU/Lab5/',
   plugins: [react()],
   build: {
-    outDir: 'dist',
-    assetsInlineLimit: 4096,
+    manifest: true,
     rollupOptions: {
       output: {
-        entryFileNames: `[name].js`,
-        chunkFileNames: `[name].js`,
-        assetFileNames: `[name].[ext]`
+        entryFileNames: '[name]-[hash].js',
+        chunkFileNames: '[name]-[hash].js',
+        assetFileNames: '[name]-[hash].[ext]'
       }
+    }
+  },
+  server: {
+    headers: {
+      'Content-Type': 'text/javascript'
     }
   }
 })
