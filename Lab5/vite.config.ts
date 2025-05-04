@@ -3,21 +3,15 @@ import react from '@vitejs/plugin-react'
 
 // vite.config.ts
 export default defineConfig({
-  base: '/TypeScript-PNU/Lab5/',
+  base: '/', // Для Vercel залишаємо кореневий шлях
   plugins: [react()],
   build: {
-    manifest: true,
+    outDir: 'dist',
+    emptyOutDir: true,
     rollupOptions: {
       output: {
-        entryFileNames: '[name]-[hash].js',
-        chunkFileNames: '[name]-[hash].js',
-        assetFileNames: '[name]-[hash].[ext]'
+        assetFileNames: 'assets/[name].[ext]'
       }
-    }
-  },
-  server: {
-    headers: {
-      'Content-Type': 'text/javascript'
     }
   }
 })
